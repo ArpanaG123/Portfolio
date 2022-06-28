@@ -1,0 +1,2245 @@
+#name{
+    width:241px;
+    height:40px;
+    font-family:'Manrope', sans-serif;
+    font-size:28px;
+    color: #105652;
+    position: relative;
+    top: 18px;
+    left: 103px;
+}
+
+
+#nav{
+    position: relative;
+    float:right;
+    top:-1vw;
+    right:10vw;
+}
+#nav1{
+    text-decoration: none;
+    font-family:'Manrope', sans-serif;
+    color: #424242;
+    font-size:small;
+    position: relative;
+    margin-right: 2vw;
+}
+
+.fdiv{
+    background-color:#FBF3E4;
+    width:100%;
+    height: 74px;
+}
+
+.sdiv{
+    width: 100%;
+    height:300px;
+    background-color: #105652;
+    display: flex;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    background: url(../main-img.jpg);
+    height:30vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position:relative;
+    background-color: #105652;
+}
+
+.banner .waves{
+    position:absolute;
+    width:100%;
+    left:0;
+    top:-8vh;
+}
+
+
+.img1{
+    background-image: url("banner-guy.png");
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height:480px;
+    position: absolute;
+    right:2vw;
+    top:7.5vw;
+    z-index:1;
+}
+
+#name1{
+    position: relative;
+    left:103px;
+    top:80px;
+    font-family:'Manrope', sans-serif;
+    color:#FCA738;
+    font-size:40px;
+}
+
+#role{
+    position: relative;
+    left:103px;
+    top:90px;
+    font-family: 'Manrope', sans-serif;
+    font-size:38px;
+    font-weight: bolder;
+    color: #FBF3E4;
+}
+
+#note{
+    position: relative;
+    left:103px;
+    top:140px;
+    font-size:large;
+    color: #FBF3E4;
+    font-family:'Manrope', sans-serif;   
+}
+
+#button1{
+    position: absolute;
+    left:103px;
+    top:24vw;
+    width: 150px;
+    height: 45px;
+    background-color: #09BEAD;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    z-index: 1;
+}
+
+#button2{
+    position:absolute;
+    left:19vw;
+    top:24vw;
+    width: 150px;
+    height: 45px;
+    background-color:#FCA738;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    z-index: 1;
+}
+
+
+.section1{
+    background-color: #F7F7F7;
+    width: 101%;
+    height:700px;
+}
+.tdiv{
+    width: 70%;
+    height: 470px;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    top:5vw;
+    left:14vw;
+    justify-content: center;
+    background-color: white;
+}
+
+#img2{
+    background-image: url("about-me-guy.png");
+    background-position: center;
+    background-size: cover;
+    width: 42%;
+    height:430px;
+    position: relative;
+    top:2.6vw;
+    left:-2vw;
+}
+#cont1{
+    width: 50%;
+    left:50vw;
+}
+
+#about{
+    font-family: 'Fascinate', cursive;
+    font-family: 'Manrope', sans-serif;
+    font-size:2rem;
+    font-weight:bolder;
+    color: #105652;
+    position: relative;
+    top:1vw;
+}
+
+#line{
+    width: 27%;
+    border:3px solid #FCA738;
+    background-color: #FCA738;
+    position: relative;
+    top:2vw;
+}
+
+#web{
+    font-family: 'Manrope', sans-serif;
+    color: #105652;
+    font-size:medium;
+    position: relative;
+    top:3vw;
+    padding-right:6vw;
+    font-weight: lighter;
+}
+
+#icon{
+    width: 95%;
+    height:108px;
+    border-radius: 15px;
+    border: 1px solid whitesmoke;
+    position: relative;
+    top: 6vw;
+}
+
+#p1{
+    font-family:'Manrope', sans-serif;
+    color: #105652;
+    font-size:small;
+    font-weight: light;
+    position: relative;
+    left:1vw;
+    top:1vw;
+}
+
+
+
+#ic1{
+    background-image: url("html@2x.png");
+    background-position: center;
+    background-size: cover;
+    width:50px;
+    height:50px;
+    position: relative;
+    left: 2vw;
+    top:2vw;
+   
+}
+
+#ic2{
+    background-image: url("css@2x.png");
+    background-position: center;
+    background-size: cover;
+    width:50px;
+    height:50px;
+    position: relative;
+    top:-1.5vw;
+    left: 6vw;
+}
+
+#ic3{
+    background-image: url("js@2x.png");
+    background-position: center;
+    background-size: cover;
+    width:50px;
+    height:50px;
+    position: relative;
+    top:-5vw;
+    left:9.8vw;
+}
+
+#ic4{
+    background-image: url("netlify@2x.png");
+    background-position: center;
+    background-size: cover;
+    width:50px;
+    height:50px;
+    position: relative;
+    top:-8.4vw;
+    left: 14vw;
+}
+
+#ic5{
+    background-image: url("bootstrap.png");
+    background-position: center;
+    background-size: cover;
+    width:50px;
+    height:50px;
+    position: relative;
+    top:-12vw;
+    left: 19.5vw;
+    
+}
+
+#ic6{
+    background-image: url("react-native@2x.png");
+    background-position: center;
+    background-size: cover;
+    width:50px;
+    height:50px;
+    position: relative;
+    top:-15.5vw;
+    left: 24vw;
+    
+}
+
+#ic7{
+    background-image: url("github@2x.png");
+    background-position: center;
+    background-size: cover;
+    width:50px;
+    height:50px;
+    position: relative;
+    top:-19.2vw;
+    left: 28vw;
+}
+.section2{
+    background-color:#F7F7F7;
+    height: 650px;
+}
+#port{
+    font-family: 'Fascinate', cursive;
+    font-family: 'Manrope', sans-serif;
+    font-size:2rem;
+    font-weight:bolder;
+    color: #105652;
+    position: relative;
+    top:-6vw;
+    text-align: center;
+}
+
+#line2{
+    width:200px;
+    border:3px solid #FCA738;
+    background-color: #FCA738;
+    position: relative;
+    top:-5.5vw;
+    margin: auto;
+}
+
+
+#im1{
+    background-image: url("img-1@2x.png");
+    background-position: center;
+    background-size: cover;
+    width: 352px;
+    height: 244px;
+    position: relative;
+    top:-2vw;
+    left: 120px;
+}
+
+.im2{
+    background-image: url("img-2@2x.png");
+    background-position: center;
+    background-size: cover;
+    width: 286px;
+    height: 244px;
+    position: relative;
+    top:-19vw;
+    left:34vw;
+}
+
+.im3{
+    background-image: url("img-3@2x.png");
+    background-position: center;
+    background-size: cover;
+    width: 476px;
+    height: 244px;
+    position: relative;
+    top:-36vw;
+    left:55vw;
+}
+
+.im4{
+    background-image: url("img-4@2x.png");
+    background-position: center;
+    background-size: cover;
+    width: 301px;
+    height: 234px;
+    position: relative;
+    top:-35vw;
+    left:120px;
+}
+
+.im5{
+    background-image: url("img-5@2x.png");
+    background-position: center;
+    background-size: cover;
+    width: 444px;
+    height: 234px;
+    position: relative;
+    top:-51vw;
+    left:30.5vw;
+}
+
+.im6{
+    background-image: url("img-6@2x.png");
+    background-position: center;
+    background-size: cover;
+    width: 369px;
+    height: 234px;
+    position: relative;
+    top:-67.3vw;
+    left:62.5vw;
+}
+
+.section3{
+    background-color: #F7F7F7;
+}
+
+#Res{
+    font-family: 'Fascinate', cursive;
+    font-family: 'Manrope', sans-serif;
+    font-size:2rem;
+    font-weight:bolder;
+    color: #105652;
+    position: relative;
+    top:-5vw;
+    text-align: center;
+}
+
+#line3{
+    width:130px;
+    border:3px solid #FCA738;
+    background-color: #FCA738;
+    position: relative;
+    top:-4.5vw;
+    margin: auto;
+}
+
+#l1{
+    position: relative;
+    left: 120px;
+    top:-3vw;
+    font-size:24px;
+    font-family:'Manrope', sans-serif;
+    color:#105652;
+    font-weight:bold;
+}
+
+#l3{
+    position: relative;
+    left: 150px;
+    top:-0.1vw;
+    color: #105652;
+    font-family:'Manrope', sans-serif;
+    font-weight:bolder;
+    font-size:18px;
+
+}
+
+#dot1{
+    width:13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #09BEAD;
+    position: relative;
+    left: 120px;
+    top:1vw;
+}
+#l4{
+    position: relative;
+    left:150px;
+    top:-1vw;
+    color: #105652;
+    font-family:'Manrope', sans-serif;
+    font-weight:bold;
+    font-size: 14px;
+}
+
+#l5{
+    border-left: 2px solid #09BEAD;
+    height: 95px;
+    position: relative;
+    top:-3.5vw;
+    left:125px;
+}
+
+#dot2{
+    width:13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #09BEAD;
+    position: relative;
+    left: 120px;
+    top:-4vw;
+}
+
+#l6{
+    position: relative;
+    left: 150px;
+    top:-5vw;
+    color: #105652;
+    font-family:'Manrope', sans-serif;
+    font-weight:bolder;
+    font-size:18px;
+
+}
+
+#l7{
+    position: relative;
+    left:150px;
+    top:-6vw;
+    color: #105652;
+    font-family:'Manrope', sans-serif;
+    font-weight:bold;
+    font-size: 14px;
+}
+
+#l8{
+    border-left: 2px solid #09BEAD;
+    height: 70px;
+    position: relative;
+    top:-9vw;
+    left:125px;
+}
+
+#but1{
+    position: relative;
+    top:-1vw;
+    left: 650px;
+    border: none;
+    border-radius: 15px;
+    height: 27px;
+    width: 90px;
+    color: white;
+    background-color: #FCA738;
+}
+
+#but2{
+    position: relative;
+    top:-6vw;
+    left:650px;
+    border: none;
+    border-radius: 15px;
+    height: 27px;
+    width: 90px;
+    color: white;
+    background-color: #FCA738;
+}
+
+#hr1{
+    position: relative;
+    top:-2vw;
+    left:8vw;
+    width: 650px;
+    color: #F1EEE9;
+}
+
+#edu{
+    position: relative;
+    left: 120px;
+    top:-6vw;
+    font-size:24px;
+    font-family:'Manrope', sans-serif;
+    color:#105652;
+    font-weight:bold;
+
+}
+
+#hr2{
+    position: relative;
+    top:-5.5vw;
+    left:8vw;
+    width: 650px;
+    color: #F1EEE9;
+}
+
+#dot3{
+    width:13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #09BEAD;
+    position: relative;
+    left: 120px;
+    top:-4vw;
+}
+
+#l10{
+    border-left: 2px solid #09BEAD;
+    height: 100px;
+    position: relative;
+    top:-4.8vw;
+    left:125px;
+}
+
+#l11{
+    position: relative;
+    left: 150px;
+    top:-12vw;
+    color: #105652;
+    font-family:'Manrope', sans-serif;
+    font-weight:bolder;
+    font-size:18px;
+}
+
+#but3{
+    position: relative;
+    top:-13.7vw;
+    left:650px;
+    border: none;
+    border-radius: 15px;
+    height: 27px;
+    width: 90px;
+    color: white;
+    background-color: #FCA738;
+}
+
+#l12{
+    position: relative;
+    left:150px;
+    top:-13vw;
+    color: #105652;
+    font-family:'Manrope', sans-serif;
+    font-weight:bold;
+    font-size: 14px;
+}
+
+#l13{
+    position: relative;
+    left: 150px;
+    top:-11.8vw;
+    font-family:'Manrope', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    color: #333333;
+}
+
+.form1{
+    display: flex;
+    flex-direction: row;
+}
+
+#im4{
+    background-image: url("resume-guy-img@2x.png");
+    background-position: center;
+    background-size: cover;
+    width: 496px;
+    height: 430px;
+    position:relative;
+    left:12vw;
+    top:-33vw;
+}
+
+#box{
+    background-color: white;
+    height: 430px;
+    width:400px;
+    border-radius: 20px;
+    position: relative;
+    top:-3vw;
+    left:15vw;
+}
+
+#bod1{
+    background-color: white;
+    width:404px;
+    height:75px;
+    border-radius: 15px;
+    position: relative;
+    top:-32vw;
+    left: 15vw;
+}
+
+.lo1{
+    background-image: url("fb@2x.png");
+    background-position: center;
+    background-size: cover;
+    width:200px;
+    height:150px;
+    position: relative;
+    top: -2.5vw;
+    left: -4vw;
+}
+.lo2{
+    background-image: url("behance@2x.png");
+    background-position: center;
+    background-size: cover;
+    width:40px;
+    height:40px;
+    position: relative;
+    top: -9vw;
+    left: 7vw;
+}
+
+.lo3{
+    background-image: url("dribbble@2x.png");
+    background-position: center;
+    background-size: cover;
+    width:42px;
+    height:42px;
+    position: relative;
+    top: -11.8vw;
+    left: 12vw;
+}
+
+.lo4{
+    background-image: url("pinterest@2x.png");
+    background-position: center;
+    background-size: cover;
+    width:42px;
+    height:42px;
+    position: relative;
+    top: -14.7vw;
+    left: 17vw;
+}
+
+.lo5{
+    background-image: url("skype@2x.png");
+    background-position: center;
+    background-size: cover;
+    width:42px;
+    height:42px;
+    position: relative;
+    top: -17.5vw;
+    left: 22vw;
+}
+
+.section5{
+    background-color: #F7F7F7;
+}
+
+#lin{
+    font-family: 'Fascinate', cursive;
+    font-family: 'Manrope', sans-serif;
+    font-size:2rem;
+    font-weight:bolder;
+    color: #105652;
+    position: relative;
+    top:-28vw;
+    text-align: center;
+}
+
+#line4{
+    width:410px;
+    border:3px solid #FCA738;
+    background-color: #FCA738;
+    position: relative;
+    top:-27vw;
+    margin: auto;
+}
+
+.box1{
+    background-color: white;
+    border-radius: 15px;
+    width: 1140px;
+    height: 500px;
+    position: relative;
+    top:-24vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#man1{
+    background-image: url("testimonial-img1@2x.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top:2vw;
+    left:8vw;
+}
+
+#man2{
+    background-image: url("testimonial-img2@2x.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:180px;
+    height: 180px;
+    position:absolute;
+    top:2vw;
+    right:34vw;
+}
+
+#man3{
+    background-image: url("Snip20220624_2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    top:1.5vw;
+    left:55vw;
+}
+
+#wr1{
+    font-family:'Manrope', sans-serif;
+    font-weight:normal;
+    font-size: 20px;
+    position: absolute;
+    top:16vw;
+    width:250px;
+    height:10px;
+    left: 9vw;
+    color: #373742;
+}
+
+#pr1{
+    width: 247px;
+    height: 20px;
+    color: #7B7B88;
+    position: absolute;
+    top:18vw;
+    left:10vw;
+}
+
+#lec1{
+    width: 160px;
+    height: 129px;
+    color: #4F4F53;
+    position: absolute;
+    top:21vw;
+    left:9vw;
+    font-size: 12px;
+    font-family:'Manrope', sans-serif;
+    font-weight:lighter;
+}
+
+#wr2{
+    font-family:'Manrope', sans-serif;
+    font-weight:normal;
+    font-size: 20px;
+    position: absolute;
+    top:16vw;
+    width:250px;
+    height:10px;
+    left:34vw;
+    color: #373742;
+}
+
+#pr2{
+    width: 247px;
+    height: 20px;
+    color: #7B7B88;
+    position: absolute;
+    top:18vw;
+    left:36vw;
+}
+
+#lec2{
+    width: 160px;
+    height: 129px;
+    color: #4F4F53;
+    position: absolute;
+    top:21vw;
+    left:34vw;
+    font-size: 12px;
+    font-family:'Manrope', sans-serif;
+    font-weight:lighter;
+}
+
+#wr3{
+    font-family:'Manrope', sans-serif;
+    font-weight:normal;
+    font-size: 20px;
+    position: absolute;
+    top:16vw;
+    width:250px;
+    height:10px;
+    left: 56vw;
+    color: #373742;
+}
+
+#pr3{
+    width: 247px;
+    height: 20px;
+    color: #7B7B88;
+    position: absolute;
+    top:18vw;
+    left:59vw;
+}
+
+#lec3{
+    width: 160px;
+    height: 129px;
+    color: #4F4F53;
+    position: absolute;
+    top:21vw;
+    left:57vw;
+    font-size: 12px;
+    font-family:'Manrope', sans-serif;
+    font-weight:lighter;
+}
+
+#blo{
+    width: 1140px;
+    height: 75px;
+    background-color: #FBF3E4;
+    text-align: center;
+    position: absolute;
+    bottom: -1vw;
+    border-bottom-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: #FCA738;
+    font-size: medium;
+    font-family:'Manrope', sans-serif;
+    padding-top: 2vw;
+}
+
+#arow{
+    color:#FCA738;
+    position: absolute;
+    text-align: center;
+    top:32.5vw;
+    left:46vw;
+    width:20px;
+}
+.section6{
+    background-color: #F7F7F7;
+    width:100%;
+    height:610px;
+}
+
+.lastHd{
+    font-family: 'Fascinate', cursive;
+    font-family: 'Manrope', sans-serif;
+    font-size:2rem;
+    font-weight:bolder;
+    color: #105652;
+    position: relative;
+    top:-18vw;
+    text-align: center;
+}
+    
+.line6{
+    width:200px;
+    border:3px solid #FCA738;
+    background-color: #FCA738;
+    position: relative;
+    top:-18vw;
+    margin: auto;
+}
+
+.blok{
+    display: flex;
+    flex-direction: row;
+}
+
+.blok1{
+    width: 40%;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+    left:11vw;
+    bottom:-222vw;
+}
+
+#d1{
+    font-family: 'Manrope', sans-serif;
+    font-size:1.3rem;
+    color: #105652;
+    font-weight: bold;
+    position: absolute;
+    left:5vw;
+    top:5vw;
+}
+
+#d2{
+    font-family: 'Manrope', sans-serif;
+    font-weight: lighter;
+    color: #333333;
+    position: absolute;
+    left:5vw;
+    top:8vw;
+    padding-right:6vw;
+
+}
+
+#d3{
+    background-image: url("Snip20220625_1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 35px;
+    height:35px;
+    position:absolute;
+    top:15vw;
+    left:5vw;
+}
+
+#d5{
+    background-image: url("phone\ \(1\)@2x.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25px;
+    height:25px;
+    position:absolute;
+    top:19vw;
+    left:5vw;
+}
+
+#d7{
+    background-image: url("marker@2x.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 27px;
+    height:37px;
+    position:absolute;
+    top:23vw;
+    left:5vw;
+}
+
+#d4{
+    font-family: 'Manrope', sans-serif;
+    color: #858585;
+    position:absolute;
+    top:15.5vw;
+    left:9vw;
+    font-size: small;
+}
+
+#d6{
+    font-family: 'Manrope', sans-serif;
+    color: #858585;
+    position:absolute;
+    top:19vw;
+    left:9vw;
+    font-size: small;
+}
+
+#d8{
+    font-family: 'Manrope', sans-serif;
+    color: #858585;
+    position:absolute;
+    top:23.8vw;
+    left:9vw;
+    font-size: small;
+}
+
+.blok2{
+    width:38%;
+    height: 600px;
+    background-color:#FBF3E4;
+    position: absolute;
+    left:51vw;
+    bottom:-222vw;
+
+}
+
+#bk1{
+    font-family: 'Manrope', sans-serif;
+    font-size:1.3rem;
+    color: #105652;
+    font-weight: bold;
+    position: absolute;
+    left:6vw;
+    top:5vw;
+}
+
+#bk2{
+    font-family: 'Manrope', sans-serif;
+    color: #333333;
+    font-size: small;
+    position: absolute;
+    left:6vw;
+    top:8vw;
+
+}
+
+#star1{
+    color: #EA3E3E;
+}
+
+#bk3{
+    border: 1px solid #E0E0E0;
+    width:300px;
+    height:25px;
+    border-radius:6px;
+    position: absolute;
+    left:5.8vw;
+    top:9.4vw;
+}
+
+
+#bk4{
+    font-family: 'Manrope', sans-serif;
+    color: #333333;
+    font-size: small;
+    position: absolute;
+    left:6vw;
+    top:13vw;
+
+}
+
+#bk5{
+    border: 1px solid #E0E0E0;
+    width:300px;
+    height:25px;
+    border-radius:6px;
+    position: absolute;
+    left:5.8vw;
+    top:14.5vw;
+}
+
+#bk6{
+    font-family: 'Manrope', sans-serif;
+    color: #333333;
+    font-size: small;
+    position: absolute;
+    left:6vw;
+    top:18vw;
+
+}
+
+#bk7{
+    border: 1px solid #E0E0E0;
+    width:300px;
+    height:25px;
+    border-radius:6px;
+    position: absolute;
+    left:5.8vw;
+    top:19.5vw;
+}
+
+#bk8{
+    font-family: 'Manrope', sans-serif;
+    color: #333333;
+    font-size: small;
+    position: absolute;
+    left:6vw;
+    top:23vw;
+
+}
+
+#bk9{
+    border: 1px solid #E0E0E0;
+    width:300px;
+    height:80px;
+    border-radius:6px;
+    position: absolute;
+    left:5.8vw;
+    top:24.5vw;
+}
+
+#bk10{
+    width: 150px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: #FCA738;
+    color: white;
+    border: none;
+    position: absolute;
+    left:6vw;
+    top:32vw;
+}
+
+#lastB{
+    width: 1130px;
+    height: 50px;
+    position: absolute;
+    top: 3980px;
+    left:11vw;
+    text-align: center;
+    background-color: #FBF3E4;
+    color: #333333;
+    font-family: 'Manrope', sans-serif;
+    font-weight: lighter;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+#hum1{
+    color: #105652;
+    font-size: 30px;
+    height: 2vw;
+    width: 2vw;
+    position: absolute;
+    right:6vw;
+    top:1.3vw;
+    
+}
+
+@media screen and (min-width:360px) and (max-width:480px){
+
+    #name{
+        width:241px;
+        height:40px;
+        font-family:'Manrope', sans-serif;
+        font-size:20px;
+        font-size:bolder;
+        color: #105652;
+        position: relative;
+        top: 18px;
+        left:30px;
+    }
+    
+    .fdiv{
+        background-color:#FBF3E4;
+        width:100%;
+        height: 74px;
+    }
+
+    #hum1{
+        color: #105652;
+        font-size: 30px;
+        height: 2vw;
+        width: 2vw;
+        position: absolute;
+        right:22vw;
+        top:6vw;
+    }
+
+    #nav{
+        display: none;
+    }
+
+    .sdiv{
+        width: 100%;
+        height:300px;
+        background-color: #105652;
+        display: flex;
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .banner{
+        background: url(../main-img.jpg);
+        height:50vh;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+        position:relative;
+        background-color: #105652;
+        top:-1vw;
+        
+    }
+    
+    .banner .waves{
+        position:absolute;
+        width:100%;
+        left:0;
+        top:45vw;
+    }
+    
+    .img1{
+        background-image: url("banner-guy.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width:100%;
+        height:400px;
+        position:absolute;
+        top:81vw;
+        left:-20vw;
+        z-index:1;
+        margin: auto;
+    }
+    
+    #name1{
+        position: relative;
+        left:14px;
+        top:50px;
+        font-family:'Manrope', sans-serif;
+        color:#FCA738;
+        font-size:25px;
+    }
+    
+    #role{
+        position: relative;
+        left:4vw;
+        top:70px;
+        font-family: 'Manrope', sans-serif;
+        font-size:25px;
+        font-weight: bolder;
+        color: #FBF3E4;
+    }
+    
+    #note{
+        position: relative;
+        left:15px;
+        top:120px;
+        font-size:large;
+        color: #FBF3E4;
+        font-family:'Manrope', sans-serif;   
+    }
+    
+    #button1{
+        position: relative;
+        left:15px;
+        top:160px;
+        width: 120px;
+        height: 45px;
+        background-color: #09BEAD;
+        border-radius: 10px;
+        border: none;
+        color: white;
+    }
+    
+    #button2{
+        position: relative;
+        left:22px;
+        top:160px;
+        width: 120px;
+        height: 45px;
+        background-color:#FCA738;
+        border-radius: 10px;
+        border: none;
+        color: white;
+    }
+    
+    #wave{
+        width:96%;
+        height:90px;
+        background-color:#368B85;
+        position:absolute;
+        bottom: -40vw;
+
+    }
+    
+    .section1{
+        background-color: #F7F7F7;
+        width: 101%;
+        height:700px;
+    }
+    .tdiv{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        position: relative;
+        border-radius: none;
+        top:15vw;
+        left:-1vw;
+        justify-content: center;
+        background-color: white;
+    }
+    
+    #img2{
+        background-image: url("about-me-guy.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 400px;
+        height: 500px;
+        position: absolute;
+        left:1vw;
+        top:70vw;
+    
+        
+    }
+    #cont1{
+        width: 50%;
+        left:50vw;
+    }
+
+    #about{
+        font-family: 'Fascinate', cursive;
+        font-family: 'Manrope', sans-serif;
+        font-size:1.5rem;
+        font-weight:bolder;
+        color: #105652;
+        position: relative;
+        top:5vw;
+        left:-20vw;
+    }
+    
+    #line{
+        width: 70%;
+        border:3px solid #FCA738;
+        background-color: #FCA738;
+        position: relative;
+        top:6vw;
+        left:-20vw;
+    }
+    
+    #web{
+        font-family: 'Manrope', sans-serif;
+        color: #105652;
+        font-size:medium;
+        position: relative;
+        top:8vw;
+        left:-20vw;
+        font-weight: lighter;
+        width: 330px;
+        
+    }
+
+    #icon{
+        width: 310px;
+        height: 200px;  
+        border-radius: 15px;
+        border: 1px solid whitesmoke;
+        position: relative;
+        top: 75vw;
+        left:-20vw;
+        background-color: white;
+    }
+    
+    #p1{
+        font-family:'Manrope', sans-serif;
+        color: #105652;
+        font-size:small;
+        font-weight: light;
+        position: relative;
+        left:2vw;
+    }
+    
+    
+    
+    #ic1{
+        background-image: url("html@2x.png");
+        background-position: center;
+        background-size: cover;
+        width:50px;
+        height:50px;
+        position: relative;
+        left: 2vw;
+        top:-0.1vw;
+       
+    }
+    
+    #ic2{
+        background-image: url("css@2x.png");
+        background-position: center;
+        background-size: cover;
+        width:50px;
+        height:50px;
+        position: relative;
+        top:-14vw;
+        left: 22vw;
+    }
+    
+    #ic3{
+        background-image: url("js@2x.png");
+        background-position: center;
+        background-size: cover;
+        width:50px;
+        height:50px;
+        position: relative;
+        top:-27vw;
+        left:39vw;
+    }
+    
+    #ic4{
+        background-image: url("netlify@2x.png");
+        background-position: center;
+        background-size: cover;
+        width:50px;
+        height:50px;
+        position: relative;
+        top:-42vw;
+        left: 58vw;
+    }
+    
+    #ic5{
+        background-image: url("bootstrap.png");
+        background-position: center;
+        background-size: cover;
+        width:50px;
+        height:50px;
+        position: relative;
+        top:-33vw;
+        left: 4vw;
+        
+    }
+    
+    #ic6{
+        background-image: url("react-native@2x.png");
+        background-position: center;
+        background-size: cover;
+        width:50px;
+        height:50px;
+        position: relative;
+        top:-45vw;
+        left: 25vw;
+        
+    }
+    
+    #ic7{
+        background-image: url("github@2x.png");
+        background-position: center;
+        background-size: cover;
+        width:50px;
+        height:50px;
+        position: relative;
+        top:-60vw;
+        left: 45vw;
+    }
+    
+    .section2{
+        background-color:#F7F7F7;
+        height: 2000px;
+        display: none;
+    }
+    
+    .section3{
+        background-color: #F7F7F7;
+        height:1000px;
+    }
+    
+    #Res{
+        font-family: 'Fascinate', cursive;
+        font-family: 'Manrope', sans-serif;
+        font-size:2rem;
+        font-weight:bolder;
+        color: #105652;
+        position: relative;
+        top:38vw;
+        text-align: center;
+    }
+    
+    #line3{
+        width:130px;
+        border:3px solid #FCA738;
+        background-color: #FCA738;
+        position: relative;
+        top:40vw;
+        margin: auto;
+    }
+    
+    #l1{
+        position: relative;
+        left:30px;
+        top:150vw;
+        font-size:18px;
+        font-family:'Manrope', sans-serif;
+        color:#105652;
+        font-weight:bold;
+    }
+    
+    #l3{
+        position:absolute;
+        left:90px;
+        top:535vw;
+        color: #105652;
+        font-family:'Manrope', sans-serif;
+        font-weight:bolder;
+        font-size:18px;
+    
+    }
+    
+    #dot1{
+        width:13px;
+        height: 13px;
+        border-radius: 50%;
+        background-color: #09BEAD;
+        position: relative;
+        left:40px;
+        top:158vw;
+    }
+    #l4{
+        position: absolute;
+        left:90px;
+        top:550vw;
+        color: #105652;
+        font-family:'Manrope', sans-serif;
+        font-weight:bold;
+        font-size: 14px;
+    }
+    
+    #l5{
+        border-left: 2px solid #09BEAD;
+        height: 95px;
+        position: relative;
+        top:150vw;
+        left:45px;
+    }
+    
+    #dot2{
+        width:13px;
+        height: 13px;
+        border-radius: 50%;
+        background-color: #09BEAD;
+        position: relative;
+        left:40px;
+        top:160vw;
+    }
+    
+    #l6{
+        position:absolute;
+        left:90px;
+        top:575vw;
+        color: #105652;
+        font-family:'Manrope', sans-serif;
+        font-weight:bolder;
+        font-size:18px;
+    
+    }
+    
+    #l7{
+        position: absolute;
+        left:90px;
+        top:590vw;
+        color: #105652;
+        font-family:'Manrope', sans-serif;
+        font-weight:bold;
+        font-size: 14px;
+    }
+    
+    #l8{
+        border-left: 2px solid #09BEAD;
+        height: 180px;
+        position: relative;
+        top:130vw;
+        left:45px;
+    }
+    
+    #but1{
+        position: relative;
+        top:175vw;
+        left:80px;
+        border:1px;
+        border-radius: 15px;
+        height: 27px;
+        width: 90px;
+        color: white;
+        background-color: #FCA738;
+    }
+    
+    #but2{
+        position: relative;
+        top:180vw;
+        left:85px;
+        border: none;
+        border-radius: 15px;
+        height: 27px;
+        width: 90px;
+        color: white;
+        background-color: #FCA738;
+    }
+    
+    #hr1{
+        position: relative;
+        top:150vw;
+        left:7vw;
+        width: 300px;
+        color: #F1EEE9;
+    }
+    
+    #edu{
+        position: relative;
+        left: 30px;
+        top:140vw;
+        font-size:24px;
+        font-family:'Manrope', sans-serif;
+        color:#105652;
+        font-weight:bold;
+    
+    }
+    
+    #hr2{
+        position: relative;
+        top:140vw;
+        left:7vw;
+        width: 300px;
+        color: #F1EEE9;
+    }
+    
+    #dot3{
+        width:13px;
+        height: 13px;
+        border-radius: 50%;
+        background-color: #09BEAD;
+        position: relative;
+        left:40px;
+        top:150vw;
+    }
+    
+    #l10{
+        border-left: 2px solid #09BEAD;
+        height: 170px;
+        position: relative;
+        top:150vw;
+        left:12.5vw;
+    }
+    
+    #l11{
+        position: relative;
+        left: 22vw;
+        top:100vw;
+        color: #105652;
+        font-family:'Manrope', sans-serif;
+        font-weight:bolder;
+        font-size:18px;
+    }
+    
+    #but3{
+        position: relative;
+        top:105vw;
+        left:24vw;
+        border: none;
+        border-radius: 15px;
+        height: 27px;
+        width: 90px;
+        color: white;
+        background-color: #FCA738;
+    }
+    
+    #l12{
+        position: relative;
+        left:80px;
+        top:110vw;
+        color: #105652;
+        font-family:'Manrope', sans-serif;
+        font-weight:bold;
+        font-size: 14px;
+    }
+    
+    #l13{
+        position: relative;
+        left:80px;
+        top:110vw;
+        font-family:'Manrope', sans-serif;
+        font-weight: normal;
+        font-size: 13px;
+        color: #333333;
+    }
+    
+    
+    
+    #im4{
+        background-image: url("resume-guy-img@2x.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 280px;
+        height: 313px;
+        position:absolute;
+        left:7vw;
+        top:400vw;
+    }
+    
+    #box{
+        background-color: white;
+        height: 230px;
+        width:300px;
+        border-radius: 20px;
+        position: relative;
+        top:45vw;
+        left:-80vw;
+    }
+    
+    #bod1{
+        background-color: white;
+        width:300px;
+        height:75px;
+        border-radius: 15px;
+        position: relative;
+        top:50vw;
+        left:-80vw;
+    }
+    
+    .lo1{
+        background-image: url("fb@2x.png");
+        background-position: center;
+        background-size: cover;
+        width:200px;
+        height:150px;
+        position: relative;
+        top: -10vw;
+        left:-14vw;
+    }
+    .lo2{
+        background-image: url("behance@2x.png");
+        background-position: center;
+        background-size: cover;
+        width:40px;
+        height:40px;
+        position: relative;
+        top: -36vw;
+        left:24vw;
+    }
+    
+    .lo3{
+        background-image: url("dribbble@2x.png");
+        background-position: center;
+        background-size: cover;
+        width:42px;
+        height:42px;
+        position: relative;
+        top: -47.4vw;
+        left: 40vw;
+    }
+    
+    .lo4{
+        background-image: url("pinterest@2x.png");
+        background-position: center;
+        background-size: cover;
+        width:42px;
+        height:42px;
+        position: relative;
+        top: -59vw;
+        left: 55vw;
+    }
+    
+    .lo5{
+        background-image: url("skype@2x.png");
+        background-position: center;
+        background-size: cover;
+        width:42px;
+        height:42px;
+        position: relative;
+        top: -71vw;
+        left: 70vw;
+    }
+
+    .section5{
+        background-color: #F7F7F7;
+        height: 1000px;
+    }
+    
+    #lin{
+        font-family: 'Fascinate', cursive;
+        font-family: 'Manrope', sans-serif;
+        font-size:1.3rem;
+        font-weight:bolder;
+        color: #105652;
+        position: relative;
+        top:70vw;
+        text-align: center;
+    }
+    
+    #line4{
+        width:300px;
+        border:3px solid #FCA738;
+        background-color: #FCA738;
+        position: relative;
+        top:74vw;
+        margin: auto;
+    }
+    
+    .box1{
+        background-color: white;
+        border-radius: none;
+        width: 340px;
+        height: 500px;
+        position: relative;
+        top:90vw;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #man1{
+        background-image: url("testimonial-img1@2x.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 180px;
+        height: 180px;
+        position: absolute;
+        top:15vw;
+        left:19vw;
+    }
+    
+    #man2{
+        background-image: url("testimonial-img2@2x.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width:180px;
+        height: 180px;
+        position:absolute;
+        top:2vw;
+        right:34vw;
+        display: none;
+    }
+    
+    #man3{
+        background-image: url("Snip20220624_2.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 200px;
+        height: 200px;
+        position:absolute;
+        top:1.5vw;
+        left:55vw;
+        display: none;
+    }
+    
+    #wr1{
+        font-family:'Manrope', sans-serif;
+        font-weight:normal;
+        font-size: 20px;
+        position: absolute;
+        top:70vw;
+        width:250px;
+        height:10px;
+        left: 24vw;
+        color: #373742;
+    }
+    
+    #pr1{
+        width: 247px;
+        height: 20px;
+        color: #7B7B88;
+        position: absolute;
+        top:80vw;
+        left:27vw;
+    }
+    
+    #lec1{
+        width: 160px;
+        height: 129px;
+        color: #4F4F53;
+        position: absolute;
+        top:90vw;
+        left:25vw;
+        font-size: 12px;
+        font-family:'Manrope', sans-serif;
+        font-weight:lighter;
+    }
+    
+    #wr2{
+        font-family:'Manrope', sans-serif;
+        font-weight:normal;
+        font-size: 20px;
+        position: absolute;
+        top:16vw;
+        width:250px;
+        height:10px;
+        left:34vw;
+        color: #373742;
+        display: none;
+    }
+    
+    #pr2{
+        width: 247px;
+        height: 20px;
+        color: #7B7B88;
+        position: absolute;
+        top:18vw;
+        left:36vw;
+        display: none;
+    }
+    
+    #lec2{
+        width: 160px;
+        height: 129px;
+        color: #4F4F53;
+        position: absolute;
+        top:21vw;
+        left:34vw;
+        font-size: 12px;
+        font-family:'Manrope', sans-serif;
+        font-weight:lighter;
+        display: none;
+    }
+    
+    #wr3{
+        font-family:'Manrope', sans-serif;
+        font-weight:normal;
+        font-size: 20px;
+        position: absolute;
+        top:16vw;
+        width:250px;
+        height:10px;
+        left: 56vw;
+        color: #373742;
+        display: none;
+    }
+    
+    #pr3{
+        width: 247px;
+        height: 20px;
+        color: #7B7B88;
+        position: absolute;
+        top:18vw;
+        left:59vw;
+        display: none;
+    }
+    
+    #lec3{
+        width: 160px;
+        height: 129px;
+        color: #4F4F53;
+        position: absolute;
+        top:21vw;
+        left:57vw;
+        font-size: 12px;
+        font-family:'Manrope', sans-serif;
+        font-weight:lighter;
+        display: none;
+    }
+
+    #blo{
+        width: 345px;
+        height:70px;
+        background-color: #FBF3E4;
+        text-align: center;
+        position: absolute;
+        top:130vw;
+        left:-0.5vw;
+        border-bottom-left-radius:none;
+        border-bottom-left-radius:none;
+        color: #FCA738;
+        font-size: medium;
+        font-family:'Manrope', sans-serif;
+        padding-top:5vw;
+        padding-bottom:5vw;
+    }
+    
+    #arow{
+        color:#FCA738;
+        position: absolute;
+        text-align: center;
+        top:136vw;
+        left:73vw;
+        width:20px;
+    }
+
+    
+    .section6{
+        background-color: #F7F7F7;
+        width:100%;
+        height:900px;
+        position: relative;
+        right:0vw;
+    }
+    
+    .lastHd{
+        font-family: 'Fascinate', cursive;
+        font-family: 'Manrope', sans-serif;
+        font-size:1.5rem;
+        font-weight:bolder;
+        color: #105652;
+        position: relative;
+        top:-15vw;
+        text-align: center;
+    }
+        
+    .line6{
+        width:150px;
+        border:3px solid #FCA738;
+        background-color: #FCA738;
+        position: relative;
+        top:-13vw;
+        margin: auto;
+    }
+    
+
+    
+    .blok1{
+        width:100%;
+        height: 340px;
+        background-color: white;
+        position: absolute;
+        left:0.4vw;
+        top:10vw;
+    }
+    
+    #d1{
+        font-family: 'Manrope', sans-serif;
+        font-size:1.3rem;
+        color: #105652;
+        font-weight: bold;
+        position: absolute;
+        left:5vw;
+        top:5vw;
+    }
+    
+    #d2{
+        font-family: 'Manrope', sans-serif;
+        font-weight: lighter;
+        color: #333333;
+        position: absolute;
+        left:5vw;
+        top:14vw;
+        padding-right:0vw;
+    
+    }
+    
+    #d3{
+        background-image: url("Snip20220625_1.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 35px;
+        height:35px;
+        position:absolute;
+        top:45vw;
+        left:5vw;
+    }
+    
+    #d5{
+        background-image: url("phone\ \(1\)@2x.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 25px;
+        height:25px;
+        position:absolute;
+        top:58vw;
+        left:5vw;
+    }
+    
+    #d7{
+        background-image: url("marker@2x.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 27px;
+        height:37px;
+        position:absolute;
+        top:72vw;
+        left:5vw;
+    }
+    
+    #d4{
+        font-family: 'Manrope', sans-serif;
+        color: #858585;
+        position:absolute;
+        top:48vw;
+        left:20vw;
+        font-size: small;
+    }
+    
+    #d6{
+        font-family: 'Manrope', sans-serif;
+        color: #858585;
+        position:absolute;
+        top:60vw;
+        left:20vw;
+        font-size: small;
+    }
+    
+    #d8{
+        font-family: 'Manrope', sans-serif;
+        color: #858585;
+        position:absolute;
+        top:75vw;
+        left:20vw;
+        font-size: small;
+    }
+    
+    .blok2{
+        width:100%;
+        height: 450px;
+        background-color:#FBF3E4;
+        position: absolute;
+        left:0vw;
+        top:100vw;
+    
+    }
+    
+    #bk1{
+        font-family: 'Manrope', sans-serif;
+        font-size:1.3rem;
+        color: #105652;
+        font-weight: bold;
+        position: absolute;
+        left:6vw;
+        top:5vw;
+    }
+    
+    #bk2{
+        font-family: 'Manrope', sans-serif;
+        color: #333333;
+        font-size: small;
+        position: absolute;
+        left:6vw;
+        top:18vw;
+    
+    }
+    
+    #star1{
+        color: #EA3E3E;
+    }
+    
+    #bk3{
+        border: 1px solid #E0E0E0;
+        width:300px;
+        height:25px;
+        border-radius:6px;
+        position: absolute;
+        left:5.8vw;
+        top:23vw;
+    }
+    
+    
+    #bk4{
+        font-family: 'Manrope', sans-serif;
+        color: #333333;
+        font-size: small;
+        position: absolute;
+        left:6vw;
+        top:35vw;
+    
+    }
+    
+    #bk5{
+        border: 1px solid #E0E0E0;
+        width:300px;
+        height:25px;
+        border-radius:6px;
+        position: absolute;
+        left:5.8vw;
+        top:40vw;
+    }
+    
+    #bk6{
+        font-family: 'Manrope', sans-serif;
+        color: #333333;
+        font-size: small;
+        position: absolute;
+        left:6vw;
+        top:52vw;
+        
+    
+    }
+    
+    #bk7{
+        border: 1px solid #E0E0E0;
+        width:300px;
+        height:25px;
+        border-radius:6px;
+        position: absolute;
+        left:5.8vw;
+        top:57vw;
+    }
+    
+    #bk8{
+        font-family: 'Manrope', sans-serif;
+        color: #333333;
+        font-size: small;
+        position: absolute;
+        left:6vw;
+        top:70vw;
+    
+    }
+    
+    #bk9{
+        border: 1px solid #E0E0E0;
+        width:300px;
+        height:80px;
+        border-radius:6px;
+        position: absolute;
+        left:5.8vw;
+        top:77vw;
+    }
+    
+    #bk10{
+        width: 150px;
+        height: 35px;
+        border-radius: 4px;
+        background-color: #FCA738;
+        color: white;
+        border: none;
+        position: absolute;
+        left:6vw;
+        top:110vw;
+    }
+    
+    #lastB{
+        width:100%;
+        height: 80px;
+        position: absolute;
+        top:240vw;
+        left:0vw;
+        text-align: center;
+        background-color: #FBF3E4;
+        color: #333333;
+        font-family: 'Manrope', sans-serif;
+        font-weight: lighter;
+        padding-top:8vw;
+    }
+   
+}
