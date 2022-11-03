@@ -15,6 +15,7 @@
     float:right;
     top:-1vw;
     right:10vw;
+    display: block;
 }
 #nav1{
     text-decoration: none;
@@ -63,14 +64,14 @@
 
 
 .img1{
-    background-image: url("banner-guy.png");
+    background-image: url("Banner1.png");
     background-position: center;
     background-size: cover;
-    width: 50%;
-    height:480px;
+    width:28%;
+    height:520px;
     position: absolute;
-    right:2vw;
-    top:7.5vw;
+    right:8vw;
+    top:7vw;
     z-index:1;
 }
 
@@ -113,6 +114,7 @@
     border: none;
     color: white;
     z-index: 1;
+    cursor: pointer;
 }
 
 #button2{
@@ -126,6 +128,7 @@
     border: none;
     color: white;
     z-index: 1;
+    cursor: pointer;
 }
 
 
@@ -147,14 +150,14 @@
 }
 
 #img2{
-    background-image: url("about-me-guy.png");
+    background-image: url("Banner1.png");
     background-position: center;
     background-size: cover;
-    width: 42%;
+    width:35%;
     height:430px;
     position: relative;
-    top:2.6vw;
-    left:-2vw;
+    top:4.5vw;
+    left:-4vw;
 }
 #cont1{
     width: 50%;
@@ -608,13 +611,13 @@
 }
 
 #im4{
-    background-image: url("resume-guy-img@2x.png");
+    background-image: url("Banner1.png");
     background-position: center;
     background-size: cover;
-    width: 496px;
-    height: 430px;
+    width: 300px;
+    height:400px;
     position:relative;
-    left:12vw;
+    left:17vw;
     top:-33vw;
 }
 
@@ -1047,7 +1050,7 @@
 #bk3{
     border: 1px solid #E0E0E0;
     width:300px;
-    height:25px;
+    height:28px;
     border-radius:6px;
     position: absolute;
     left:5.8vw;
@@ -1068,7 +1071,7 @@
 #bk5{
     border: 1px solid #E0E0E0;
     width:300px;
-    height:25px;
+    height:28px;
     border-radius:6px;
     position: absolute;
     left:5.8vw;
@@ -1088,7 +1091,7 @@
 #bk7{
     border: 1px solid #E0E0E0;
     width:300px;
-    height:25px;
+    height:28px;
     border-radius:6px;
     position: absolute;
     left:5.8vw;
@@ -1131,7 +1134,7 @@
     width: 1130px;
     height: 50px;
     position: absolute;
-    top: 3980px;
+    top: 3950px;
     left:11vw;
     text-align: center;
     background-color: #FBF3E4;
@@ -1150,7 +1153,99 @@
     position: absolute;
     right:6vw;
     top:1.3vw;
+    display: none;
     
+}
+.pics1{
+    width: 300px;
+    margin:2vw 2vw 2vw 2vw;
+    border-radius: 10px;
+}
+
+.divs1{
+    background-color: lightblue;
+    width: 360px;
+    height:210px;
+    border-radius: 20px;
+}
+
+.pics2{
+    width: 300px;
+    margin:2vw 2vw 2vw 2vw;
+    border-radius: 10px;
+    height: 150px;
+}
+
+.pics3{
+    width: 300px;
+    margin:2vw 2vw 2vw 2vw;
+    border-radius: 10px;
+}
+
+.pics4{
+    width: 300px;
+    margin:2vw 2vw 2vw 2vw;
+    border-radius: 10px;
+}
+
+.pics5{
+    width: 300px;
+    margin:2vw 2vw 2vw 2vw;
+    border-radius: 10px;
+}
+
+.pics6{
+    width: 300px;
+    margin:2vw 2vw 2vw 2vw;
+    border-radius: 10px;
+}
+
+.Imgdiv1{
+    display: flex;
+    justify-content: center;
+    margin-top:-2vw;
+}
+
+.Imgdiv2{
+    display: flex;
+    justify-content: center;
+    margin-top:5vw;
+}
+
+.divs2{
+    background-color: lightblue;
+    width: 360px;
+    height:210px;
+    border-radius: 20px;
+    margin-left: 2vw;
+}
+.divs3{
+    background-color: lightblue;
+    width: 360px;
+    height:210px;
+    border-radius: 20px;
+    margin-left: 2vw;
+}
+.divs4{
+    background-color: lightblue;
+    width: 360px;
+    height:210px;
+    border-radius: 20px;
+    margin-left: 2vw;
+}
+.divs5{
+    background-color: lightblue;
+    width: 360px;
+    height:210px;
+    border-radius: 20px;
+    margin-left: 2vw;
+}
+.divs6{
+    background-color: lightblue;
+    width: 360px;
+    height:210px;
+    border-radius: 20px;
+    margin-left: 2vw;
 }
 
 @media screen and (min-width:360px) and (max-width:480px){
@@ -1159,7 +1254,7 @@
         width:241px;
         height:40px;
         font-family:'Manrope', sans-serif;
-        font-size:20px;
+        font-size:30px;
         font-size:bolder;
         color: #105652;
         position: relative;
@@ -1170,21 +1265,69 @@
     .fdiv{
         background-color:#FBF3E4;
         width:100%;
-        height: 74px;
+        height:100px;
     }
 
     #hum1{
         color: #105652;
         font-size: 30px;
-        height: 2vw;
-        width: 2vw;
+        height:50px;
+        width:50px;
         position: absolute;
-        right:22vw;
+        right:4vw;
         top:6vw;
+        display: block;
+        z-index:1;
     }
 
     #nav{
+        border: none;
+        height:275px;
+        position: absolute;
+        top:60px;
+        left:0%;
+        background-image: linear-gradient(purple,white,purple);
+        display:none;
+        z-index: 1;
+        width:100%;
+        border-radius:15px;
+    }
+
+    .na1{
+        position: absolute;
+        left:45%;
+        top:15%;
+        font-weight:bolder;
+        font-style: italic;
+    }
+    .na2{
+        position: absolute;
+        left:31%;
+        top:30%;
+        font-weight:bolder;
+        font-style: italic;
+    }
+    .na3{
+        position: absolute;
+        left:15%;
+        top:45%;
+        font-weight:bolder;
+        font-style: italic;
         display: none;
+    }
+    .na4{
+        position: absolute;
+        left:15%;
+        top:45%;
+        font-weight:bolder;
+        font-style: italic;
+    }
+    .na5{
+        position: absolute;
+        left:-2%;
+        top:63%;
+        font-weight:bolder;
+        font-style: italic;
     }
 
     .sdiv{
@@ -1216,18 +1359,18 @@
         position:absolute;
         width:100%;
         left:0;
-        top:45vw;
+        top:51vw;
     }
     
     .img1{
-        background-image: url("banner-guy.png");
+        background-image: url("Banner1.png");
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        width:100%;
-        height:400px;
+        width:80%;
+        height:300px;
         position:absolute;
-        top:81vw;
+        top:105vw;
         left:-20vw;
         z-index:1;
         margin: auto;
@@ -1312,15 +1455,15 @@
     }
     
     #img2{
-        background-image: url("about-me-guy.png");
+        background-image: url("Banner1.png");
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        width: 400px;
-        height: 500px;
+        width:350px;
+        height:400px;
         position: absolute;
         left:1vw;
-        top:70vw;
+        top:74vw;
     
         
     }
@@ -1378,10 +1521,9 @@
         font-size:small;
         font-weight: light;
         position: relative;
-        left:2vw;
+        left:3vw;
+        top: 2vw;
     }
-    
-    
     
     #ic1{
         background-image: url("html@2x.png");
@@ -1391,7 +1533,7 @@
         height:50px;
         position: relative;
         left: 2vw;
-        top:-0.1vw;
+        top:4vw;
        
     }
     
@@ -1402,7 +1544,7 @@
         width:50px;
         height:50px;
         position: relative;
-        top:-14vw;
+        top:-10vw;
         left: 22vw;
     }
     
@@ -1413,7 +1555,7 @@
         width:50px;
         height:50px;
         position: relative;
-        top:-27vw;
+        top:-23vw;
         left:39vw;
     }
     
@@ -1424,7 +1566,7 @@
         width:50px;
         height:50px;
         position: relative;
-        top:-42vw;
+        top:-37vw;
         left: 58vw;
     }
     
@@ -1435,7 +1577,7 @@
         width:50px;
         height:50px;
         position: relative;
-        top:-33vw;
+        top:-30vw;
         left: 4vw;
         
     }
@@ -1447,7 +1589,7 @@
         width:50px;
         height:50px;
         position: relative;
-        top:-45vw;
+        top:-43vw;
         left: 25vw;
         
     }
@@ -1459,7 +1601,7 @@
         width:50px;
         height:50px;
         position: relative;
-        top:-60vw;
+        top:-58vw;
         left: 45vw;
     }
     
@@ -1497,7 +1639,7 @@
     #l1{
         position: relative;
         left:30px;
-        top:150vw;
+        top:155vw;
         font-size:18px;
         font-family:'Manrope', sans-serif;
         color:#105652;
@@ -1507,7 +1649,7 @@
     #l3{
         position:absolute;
         left:90px;
-        top:535vw;
+        top:550vw;
         color: #105652;
         font-family:'Manrope', sans-serif;
         font-weight:bolder;
@@ -1527,7 +1669,7 @@
     #l4{
         position: absolute;
         left:90px;
-        top:550vw;
+        top:563vw;
         color: #105652;
         font-family:'Manrope', sans-serif;
         font-weight:bold;
@@ -1555,7 +1697,7 @@
     #l6{
         position:absolute;
         left:90px;
-        top:575vw;
+        top:590vw;
         color: #105652;
         font-family:'Manrope', sans-serif;
         font-weight:bolder;
@@ -1566,7 +1708,7 @@
     #l7{
         position: absolute;
         left:90px;
-        top:590vw;
+        top:595vw;
         color: #105652;
         font-family:'Manrope', sans-serif;
         font-weight:bold;
@@ -1595,7 +1737,7 @@
     
     #but2{
         position: relative;
-        top:180vw;
+        top:175vw;
         left:85px;
         border: none;
         border-radius: 15px;
@@ -1607,7 +1749,7 @@
     
     #hr1{
         position: relative;
-        top:150vw;
+        top:155vw;
         left:7vw;
         width: 300px;
         color: #F1EEE9;
@@ -1695,25 +1837,25 @@
     
     
     #im4{
-        background-image: url("resume-guy-img@2x.png");
+        background-image: url("Banner1.png");
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        width: 280px;
-        height: 313px;
+        width: 250px;
+        height: 300px;
         position:absolute;
         left:7vw;
-        top:400vw;
+        top:437vw;
     }
     
     #box{
         background-color: white;
-        height: 230px;
+        height:300px;
         width:300px;
         border-radius: 20px;
         position: relative;
         top:45vw;
-        left:-80vw;
+        left:-74vw;
     }
     
     #bod1{
